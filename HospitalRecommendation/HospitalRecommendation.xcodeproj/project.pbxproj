@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A968FEB0236DCF7600710F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEAF236DCF7600710F30 /* AppDelegate.swift */; };
+		A968FEB2236DCF7600710F30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEB1236DCF7600710F30 /* SceneDelegate.swift */; };
+		A968FEB4236DCF7600710F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEB3236DCF7600710F30 /* ViewController.swift */; };
+		A968FEB7236DCF7600710F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A968FEB5236DCF7600710F30 /* Main.storyboard */; };
+		A968FEB9236DCF7800710F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A968FEB8236DCF7800710F30 /* Assets.xcassets */; };
+		A968FEBC236DCF7800710F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A968FEBA236DCF7800710F30 /* LaunchScreen.storyboard */; };
+		A968FEC7236DCF7800710F30 /* HospitalRecommendationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEC6236DCF7800710F30 /* HospitalRecommendationTests.swift */; };
+		A968FED2236DCF7800710F30 /* HospitalRecommendationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FED1236DCF7800710F30 /* HospitalRecommendationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A968FEC3236DCF7800710F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A968FEA4236DCF7600710F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A968FEAB236DCF7600710F30;
+			remoteInfo = HospitalRecommendation;
+		};
+		A968FECE236DCF7800710F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A968FEA4236DCF7600710F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A968FEAB236DCF7600710F30;
+			remoteInfo = HospitalRecommendation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A968FEAC236DCF7600710F30 /* HospitalRecommendation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HospitalRecommendation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A968FEAF236DCF7600710F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A968FEB1236DCF7600710F30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A968FEB3236DCF7600710F30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A968FEB6236DCF7600710F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A968FEB8236DCF7800710F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A968FEBB236DCF7800710F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A968FEBD236DCF7800710F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A968FEC2236DCF7800710F30 /* HospitalRecommendationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalRecommendationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A968FEC6236DCF7800710F30 /* HospitalRecommendationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalRecommendationTests.swift; sourceTree = "<group>"; };
+		A968FEC8236DCF7800710F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A968FECD236DCF7800710F30 /* HospitalRecommendationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalRecommendationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A968FED1236DCF7800710F30 /* HospitalRecommendationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalRecommendationUITests.swift; sourceTree = "<group>"; };
+		A968FED3236DCF7800710F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A968FEA9236DCF7600710F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A968FEBF236DCF7800710F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A968FECA236DCF7800710F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A968FEA3236DCF7600710F30 = {
+			isa = PBXGroup;
+			children = (
+				A968FEAE236DCF7600710F30 /* HospitalRecommendation */,
+				A968FEC5236DCF7800710F30 /* HospitalRecommendationTests */,
+				A968FED0236DCF7800710F30 /* HospitalRecommendationUITests */,
+				A968FEAD236DCF7600710F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A968FEAD236DCF7600710F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A968FEAC236DCF7600710F30 /* HospitalRecommendation.app */,
+				A968FEC2236DCF7800710F30 /* HospitalRecommendationTests.xctest */,
+				A968FECD236DCF7800710F30 /* HospitalRecommendationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A968FEAE236DCF7600710F30 /* HospitalRecommendation */ = {
+			isa = PBXGroup;
+			children = (
+				A968FEAF236DCF7600710F30 /* AppDelegate.swift */,
+				A968FEB1236DCF7600710F30 /* SceneDelegate.swift */,
+				A968FEB3236DCF7600710F30 /* ViewController.swift */,
+				A968FEB5236DCF7600710F30 /* Main.storyboard */,
+				A968FEB8236DCF7800710F30 /* Assets.xcassets */,
+				A968FEBA236DCF7800710F30 /* LaunchScreen.storyboard */,
+				A968FEBD236DCF7800710F30 /* Info.plist */,
+			);
+			path = HospitalRecommendation;
+			sourceTree = "<group>";
+		};
+		A968FEC5236DCF7800710F30 /* HospitalRecommendationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A968FEC6236DCF7800710F30 /* HospitalRecommendationTests.swift */,
+				A968FEC8236DCF7800710F30 /* Info.plist */,
+			);
+			path = HospitalRecommendationTests;
+			sourceTree = "<group>";
+		};
+		A968FED0236DCF7800710F30 /* HospitalRecommendationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A968FED1236DCF7800710F30 /* HospitalRecommendationUITests.swift */,
+				A968FED3236DCF7800710F30 /* Info.plist */,
+			);
+			path = HospitalRecommendationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A968FEAB236DCF7600710F30 /* HospitalRecommendation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A968FED6236DCF7800710F30 /* Build configuration list for PBXNativeTarget "HospitalRecommendation" */;
+			buildPhases = (
+				A968FEA8236DCF7600710F30 /* Sources */,
+				A968FEA9236DCF7600710F30 /* Frameworks */,
+				A968FEAA236DCF7600710F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HospitalRecommendation;
+			productName = HospitalRecommendation;
+			productReference = A968FEAC236DCF7600710F30 /* HospitalRecommendation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A968FEC1236DCF7800710F30 /* HospitalRecommendationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A968FED9236DCF7800710F30 /* Build configuration list for PBXNativeTarget "HospitalRecommendationTests" */;
+			buildPhases = (
+				A968FEBE236DCF7800710F30 /* Sources */,
+				A968FEBF236DCF7800710F30 /* Frameworks */,
+				A968FEC0236DCF7800710F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A968FEC4236DCF7800710F30 /* PBXTargetDependency */,
+			);
+			name = HospitalRecommendationTests;
+			productName = HospitalRecommendationTests;
+			productReference = A968FEC2236DCF7800710F30 /* HospitalRecommendationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A968FECC236DCF7800710F30 /* HospitalRecommendationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A968FEDC236DCF7800710F30 /* Build configuration list for PBXNativeTarget "HospitalRecommendationUITests" */;
+			buildPhases = (
+				A968FEC9236DCF7800710F30 /* Sources */,
+				A968FECA236DCF7800710F30 /* Frameworks */,
+				A968FECB236DCF7800710F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A968FECF236DCF7800710F30 /* PBXTargetDependency */,
+			);
+			name = HospitalRecommendationUITests;
+			productName = HospitalRecommendationUITests;
+			productReference = A968FECD236DCF7800710F30 /* HospitalRecommendationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A968FEA4236DCF7600710F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Szmbbq;
+				TargetAttributes = {
+					A968FEAB236DCF7600710F30 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					A968FEC1236DCF7800710F30 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A968FEAB236DCF7600710F30;
+					};
+					A968FECC236DCF7800710F30 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A968FEAB236DCF7600710F30;
+					};
+				};
+			};
+			buildConfigurationList = A968FEA7236DCF7600710F30 /* Build configuration list for PBXProject "HospitalRecommendation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A968FEA3236DCF7600710F30;
+			productRefGroup = A968FEAD236DCF7600710F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A968FEAB236DCF7600710F30 /* HospitalRecommendation */,
+				A968FEC1236DCF7800710F30 /* HospitalRecommendationTests */,
+				A968FECC236DCF7800710F30 /* HospitalRecommendationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A968FEAA236DCF7600710F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968FEBC236DCF7800710F30 /* LaunchScreen.storyboard in Resources */,
+				A968FEB9236DCF7800710F30 /* Assets.xcassets in Resources */,
+				A968FEB7236DCF7600710F30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A968FEC0236DCF7800710F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A968FECB236DCF7800710F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A968FEA8236DCF7600710F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968FEB4236DCF7600710F30 /* ViewController.swift in Sources */,
+				A968FEB0236DCF7600710F30 /* AppDelegate.swift in Sources */,
+				A968FEB2236DCF7600710F30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A968FEBE236DCF7800710F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968FEC7236DCF7800710F30 /* HospitalRecommendationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A968FEC9236DCF7800710F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968FED2236DCF7800710F30 /* HospitalRecommendationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A968FEC4236DCF7800710F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A968FEAB236DCF7600710F30 /* HospitalRecommendation */;
+			targetProxy = A968FEC3236DCF7800710F30 /* PBXContainerItemProxy */;
+		};
+		A968FECF236DCF7800710F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A968FEAB236DCF7600710F30 /* HospitalRecommendation */;
+			targetProxy = A968FECE236DCF7800710F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A968FEB5236DCF7600710F30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A968FEB6236DCF7600710F30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A968FEBA236DCF7800710F30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A968FEBB236DCF7800710F30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A968FED4236DCF7800710F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A968FED5236DCF7800710F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A968FED7236DCF7800710F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HospitalRecommendation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Szmbbq.HospitalRecommendation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A968FED8236DCF7800710F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HospitalRecommendation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Szmbbq.HospitalRecommendation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A968FEDA236DCF7800710F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HospitalRecommendationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Szmbbq.HospitalRecommendationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HospitalRecommendation.app/HospitalRecommendation";
+			};
+			name = Debug;
+		};
+		A968FEDB236DCF7800710F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HospitalRecommendationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Szmbbq.HospitalRecommendationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HospitalRecommendation.app/HospitalRecommendation";
+			};
+			name = Release;
+		};
+		A968FEDD236DCF7800710F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HospitalRecommendationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Szmbbq.HospitalRecommendationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HospitalRecommendation;
+			};
+			name = Debug;
+		};
+		A968FEDE236DCF7800710F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HospitalRecommendationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Szmbbq.HospitalRecommendationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HospitalRecommendation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A968FEA7236DCF7600710F30 /* Build configuration list for PBXProject "HospitalRecommendation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968FED4236DCF7800710F30 /* Debug */,
+				A968FED5236DCF7800710F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A968FED6236DCF7800710F30 /* Build configuration list for PBXNativeTarget "HospitalRecommendation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968FED7236DCF7800710F30 /* Debug */,
+				A968FED8236DCF7800710F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A968FED9236DCF7800710F30 /* Build configuration list for PBXNativeTarget "HospitalRecommendationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968FEDA236DCF7800710F30 /* Debug */,
+				A968FEDB236DCF7800710F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A968FEDC236DCF7800710F30 /* Build configuration list for PBXNativeTarget "HospitalRecommendationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968FEDD236DCF7800710F30 /* Debug */,
+				A968FEDE236DCF7800710F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A968FEA4236DCF7600710F30 /* Project object */;
+}
