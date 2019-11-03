@@ -14,6 +14,7 @@ class HospitalTableVC: UITableViewController {
     // MARK: - properties
     var hospitals: [NSDictionary]!
     var userLocation: CLLocation!
+    var hospitalSelected: NSDictionary!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +60,21 @@ class HospitalTableVC: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 70
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.hospitalSelected = self.hospitals[indexPath.row]
+        performSegue(withIdentifier: "showDetailVC", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetailVC" {
+            print("to detail vc")
+            let vc = segue.destination as! HospitalDetailVC
+            vc.hospital = self.hospitalSelected
+            vc.userLocation = self.userLocation
+        }
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
