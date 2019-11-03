@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		A968FEB0236DCF7600710F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEAF236DCF7600710F30 /* AppDelegate.swift */; };
 		A968FEB2236DCF7600710F30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEB1236DCF7600710F30 /* SceneDelegate.swift */; };
-		A968FEB4236DCF7600710F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEB3236DCF7600710F30 /* ViewController.swift */; };
+		A968FEB4236DCF7600710F30 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEB3236DCF7600710F30 /* InputViewController.swift */; };
 		A968FEB7236DCF7600710F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A968FEB5236DCF7600710F30 /* Main.storyboard */; };
 		A968FEB9236DCF7800710F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A968FEB8236DCF7800710F30 /* Assets.xcassets */; };
 		A968FEBC236DCF7800710F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A968FEBA236DCF7800710F30 /* LaunchScreen.storyboard */; };
 		A968FEC7236DCF7800710F30 /* HospitalRecommendationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEC6236DCF7800710F30 /* HospitalRecommendationTests.swift */; };
 		A968FED2236DCF7800710F30 /* HospitalRecommendationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FED1236DCF7800710F30 /* HospitalRecommendationUITests.swift */; };
+		A968FEE0236E276400710F30 /* HospitalTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEDF236E276400710F30 /* HospitalTableVC.swift */; };
+		A968FEE2236E327400710F30 /* HospitalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968FEE1236E327400710F30 /* HospitalViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 		A968FEAC236DCF7600710F30 /* HospitalRecommendation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HospitalRecommendation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A968FEAF236DCF7600710F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A968FEB1236DCF7600710F30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A968FEB3236DCF7600710F30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A968FEB3236DCF7600710F30 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		A968FEB6236DCF7600710F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A968FEB8236DCF7800710F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A968FEBB236DCF7800710F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		A968FECD236DCF7800710F30 /* HospitalRecommendationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalRecommendationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A968FED1236DCF7800710F30 /* HospitalRecommendationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalRecommendationUITests.swift; sourceTree = "<group>"; };
 		A968FED3236DCF7800710F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A968FEDF236E276400710F30 /* HospitalTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalTableVC.swift; sourceTree = "<group>"; };
+		A968FEE1236E327400710F30 /* HospitalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				A968FEAF236DCF7600710F30 /* AppDelegate.swift */,
 				A968FEB1236DCF7600710F30 /* SceneDelegate.swift */,
-				A968FEB3236DCF7600710F30 /* ViewController.swift */,
+				A968FEB3236DCF7600710F30 /* InputViewController.swift */,
 				A968FEB5236DCF7600710F30 /* Main.storyboard */,
+				A968FEDF236E276400710F30 /* HospitalTableVC.swift */,
+				A968FEE1236E327400710F30 /* HospitalViewCell.swift */,
 				A968FEB8236DCF7800710F30 /* Assets.xcassets */,
 				A968FEBA236DCF7800710F30 /* LaunchScreen.storyboard */,
 				A968FEBD236DCF7800710F30 /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A968FEB4236DCF7600710F30 /* ViewController.swift in Sources */,
+				A968FEB4236DCF7600710F30 /* InputViewController.swift in Sources */,
+				A968FEE0236E276400710F30 /* HospitalTableVC.swift in Sources */,
+				A968FEE2236E327400710F30 /* HospitalViewCell.swift in Sources */,
 				A968FEB0236DCF7600710F30 /* AppDelegate.swift in Sources */,
 				A968FEB2236DCF7600710F30 /* SceneDelegate.swift in Sources */,
 			);

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D7BD2DFE-AA55-4021-BD86-73C794A52AED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FFA260A-35EF-4DFF-8DB6-3FA01B600DF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HospitalRecommendation/InputViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getHospitals(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69539CD3-DE3A-4F45-B16E-67274DF5DA6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HospitalRecommendation/InputViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "getHospitals(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "69539CD3-DE3A-4F45-B16E-67274DF5DA6E - 4c5d4a9e5370a000"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HospitalRecommendation.InputViewController.getHospitals(Any) -&gt; ()"
+                  moduleName = "HospitalRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xxx/Documents/Graduate/Fall%202019/hackathon/HospitalRecommendation/HospitalRecommendation/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "3428">
+               </Location>
+               <Location
+                  uuid = "69539CD3-DE3A-4F45-B16E-67274DF5DA6E - 199c8abb5549bf94"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HospitalRecommendation.InputViewController.getHospitals(Any) -&gt; ()"
+                  moduleName = "HospitalRecommendation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xxx/Documents/Graduate/Fall%202019/hackathon/HospitalRecommendation/HospitalRecommendation/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
