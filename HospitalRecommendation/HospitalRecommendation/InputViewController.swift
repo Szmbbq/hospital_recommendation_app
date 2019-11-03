@@ -84,7 +84,6 @@ class InputViewController: UIViewController, CLLocationManagerDelegate {
                 return
             }
             // Use your location
-            print(location)
             self.currentLocation = location
             let locationCoordinate = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
             let addrAnnotation = MKPointAnnotation()
@@ -125,6 +124,7 @@ class InputViewController: UIViewController, CLLocationManagerDelegate {
             let vc = segue.destination as! HospitalTableVC
             vc.hospitals = self.hospitals
             vc.userLocation = self.currentLocation
+            vc.searchSpan = Double(self.searchSpan)
         }
     }
 }

@@ -15,6 +15,7 @@ class HospitalTableVC: UITableViewController {
     var hospitals: [NSDictionary]!
     var userLocation: CLLocation!
     var hospitalSelected: NSDictionary!
+    var searchSpan: Double!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,9 +50,8 @@ class HospitalTableVC: UITableViewController {
         // Configure the cell...
         let hospital: NSDictionary = self.hospitals[indexPath.row]
         cell.hospitalName?.text = hospital.object(forKey: "hospital_name") as! String
+        cell.hospitalName?.isEditable = false
         let hospitalCoordinate = (hospital.object(forKey: "location") as! NSDictionary).object(forKey: "coordinates") as! Array<Any>
-        print(hospitalCoordinate)
-        print(userLocation)
         let hospitalDistance: Double = calculateDistance(currLoation: self.userLocation, destination: CLLocation(latitude: hospitalCoordinate[1] as! CLLocationDegrees, longitude: hospitalCoordinate[0] as! CLLocationDegrees))
         cell.hospitalDistance?.text = String(format: "%.2f", hospitalDistance) + (hospitalDistance > 1 ? " miles" : " mile")
         return cell
@@ -72,6 +72,7 @@ class HospitalTableVC: UITableViewController {
             let vc = segue.destination as! HospitalDetailVC
             vc.hospital = self.hospitalSelected
             vc.userLocation = self.userLocation
+            vc.distanceSpan = self.searchSpan
         }
     }
     
